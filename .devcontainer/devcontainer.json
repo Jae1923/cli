@@ -1,7 +1,8 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/go:1.19",
 	"features": {
-		"ghcr.io/devcontainers/features/sshd:1": {}
+		"ghcr.io/devcontainers/features/sshd:1": {}{
+		"ghcr.io/devcontainers/features/aws-cli:1": }
 	},
 	"remoteUser": "vscode",
 	"customizations": {
@@ -22,3 +23,4 @@
 		"seccomp=unconfined"
 	]
 }
+"ghcr.io/wxw-matt/devcontainer-features/script_runner:0": {}
